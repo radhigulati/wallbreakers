@@ -14,7 +14,7 @@ def reverseWords(s):
     first = 0
     for last in range(len(new_s)):
         if last == len(new_s)-1 or new_s[last] == ' ':
-            reverse_word(new_s, first, last)
+            reverse_word(new_s, first, last-1)
             first = last + 1
     return ''.join(new_s)
 
