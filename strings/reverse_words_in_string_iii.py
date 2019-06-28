@@ -13,10 +13,10 @@ def reverseWords(s):
     new_s = list(s)
     first = 0
     for last in range(len(new_s)):
-        if last == len(s) or s[last] == ' ':
+        if last == len(new_s)-1 or new_s[last] == ' ':
             reverse_word(new_s, first, last)
             first = last + 1
-    return ' '.join(new_s)
+    return ''.join(new_s)
 
 
 def reverse_word(new_s, first, last):
