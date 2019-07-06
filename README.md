@@ -52,7 +52,7 @@ https://leetcode.com/problems/two-sum/
 
 https://leetcode.com/problems/valid-anagram/
 
-#Union find:
+### Union find:
 
 https://leetcode.com/problems/friend-circles
 
